@@ -1,0 +1,393 @@
+@media (max-width: 768px) {
+  .container, .header-inner, .container-medium {
+    max-width: 100%;
+    padding: 0 10px;
+  }
+  
+  
+  .top-bar {
+    flex-direction: row;
+    height: auto;
+    gap: 6px;
+    padding: 5px 0;
+  }
+
+  .hero {
+    flex-direction: column;
+    height: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .logo-block {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+  }
+
+  .logo-image {
+    height: 70px;
+    margin-top: 0;
+  }
+
+  .main-nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    height: auto;
+    margin-top: 15px;
+  }
+
+  .promo-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: auto;
+  }
+
+  .promo-large, .promo-small {
+    grid-row: auto;
+    width: 100%;
+  }
+
+  .info-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    margin-top: 50px;
+    height: auto;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .product-card {
+    min-width: auto;
+  }
+
+  .section-all {
+    height: auto;
+  }
+  .container-medium {
+  height: auto;
+  padding: 20px 10px;
+}
+
+.expert-section {
+  
+  border: 1px solid #e8e8e8;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 250px;
+}
+
+.quote-mark {
+  font-size: 40px;  
+  margin-top: 0;    
+  line-height: 1;
+}
+
+.expert-title {
+  font-size: 20px;   
+  line-height: 28px;
+  margin: 0;
+}
+
+.speech-bubble{
+  position: absolute;
+  right: 0px;
+  top: 80px;
+  width: 70%;
+  height: 70%;
+  z-index: 2;
+}
+.expert-image{
+position: absolute;
+  left: 0px;
+  top: 80px;
+  width: 180px;
+  height: 180px;
+  z-index: 3;
+}
+.tablet-image{
+position: absolute;
+right: 130px;
+top: 110px;
+width: 50px;
+height: 50px;
+z-index: 5;
+}
+
+.speech-text {
+  position: absolute;
+  right: 10px;
+  top: 155px;
+  z-index: auto;
+  max-width: 30%;
+  font-size: 10px; 
+  line-height: 10px;
+  text-align: center;
+  color: #000;
+  max-width: 150px;
+  z-index: 3;
+}
+  .two-column-section {
+        height: auto;
+        padding: 20px 0;
+    }
+
+  
+    .two-column-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+   
+    .left-column {
+        margin-top: 20px;
+        padding: 0 15px;
+    }
+
+    .knowledge-card {
+        padding: 20px;
+    }
+
+    .card-header {
+        margin-top: 0;
+        margin-left: 0;
+        font-size: 22px;
+        flex-direction: row;
+    }
+
+    .knowledge-desc,
+    .knowledge-button {
+        margin-left: 0;
+    }
+
+    .knowledge-button {
+        width: 100%;
+    }
+
+    .right-column {
+        margin-top: 10px;
+        padding: 0 15px;
+    }
+
+    .article-image {
+        height: auto;
+        max-height: 260px;
+        object-fit: cover;
+        border-radius: 10px;
+    }
+
+    .article-label {
+        top: 10px;
+        left: 10px;
+        padding: 4px 14px;
+    }
+
+    
+    .article-card {
+        
+        padding: 14px;
+    }
+
+    .article-button {
+        position: static;
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        margin-top: 5px;
+    }
+
+   
+    .reviews {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    .reviews-logo {
+        width: 140px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .reviews-heading {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .reviews-score,
+    .reviews-stars {
+        font-size: 14px;
+        text-align: center;
+    }
+
+   
+    .testimonial {
+        width: 90%;
+        height: auto;
+        margin: 20px auto 0 auto;
+        padding: 30px 20px;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 10px;
+    }
+
+    .testimonial-name {
+        position: static;
+        margin-bottom: 10px;
+    }
+    .testimonial-text {
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .testimonial-page {
+        position: static;
+        margin-top: 10px;
+    }
+    .parallax1,
+    .parallax2,
+    .parallax3 {
+        display: none;
+    }
+
+    .opineo-logo {
+        width: 120px;
+        height: auto;
+    }
+    
+  .newsletter-banner {
+    height: auto;
+    padding: 40px 0;
+  }
+
+  .newsletter-grid {
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .newsletter-left {
+    align-items: center;
+  }
+
+  .newsletter-title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+
+  .newsletter-description {
+    font-size: 15px;
+    line-height: 22px;
+    max-width: 95%;
+  }
+
+  .input-wrapper {
+    max-width: 100%;
+  }
+
+  .input-wrapper input {
+    font-size: 14px;
+    height: 48px;
+  }
+
+  .input-wrapper button {
+    right: 0;
+    height: 48px;
+    padding: 0 15px;
+    font-size: 12px;
+  }
+
+  .newsletter-checkbox {
+    font-size: 12px;
+    line-height: 22px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .newsletter-right img {
+    width: 80%;
+    height: auto;
+  }
+
+  .hero-background {
+    height: auto;
+    padding: 40px 0;
+    background-position: center;
+  }
+
+  .hero-center {
+    width: 90%;
+    height: auto;
+    padding: 25px 20px;
+    gap: 14px;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-header {
+    margin-left: 0;
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  .hero-small-icon {
+    width: 46px;
+    height: 44px;
+  }
+
+  .hero-title {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  .hero-subtitle {
+    position: static;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+
+  .hero-desc,
+  .hero-desc-2 {
+    margin-left: 0;
+    max-width: 100%;
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .hero-button {
+    width: 80%;
+    max-width: 250px;
+    margin-left: 0;
+    margin-top: 15px;
+    font-size: 14px;
+    height: 48px;
+  }
+
+  .awards {
+    justify-content: center;
+    margin-left: 0;
+    margin-top: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+  }
+
+  .award-1,
+  .award-2 {
+    width: 120px;
+    height: auto;
+  }
+}
