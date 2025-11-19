@@ -438,7 +438,7 @@ h2 {
  
 margin-top: -50px;
 
-font-family: 'Inter' 'sans-serif';
+font-family: 'Inter' ;
 font-style: normal;
 font-weight: 700;
 font-size: 100px;
@@ -1076,4 +1076,240 @@ line-height: 50px;
 }
 a{
   color:#444444 ;
+}
+
+.contact-section {
+  width: 100%;
+  background: #fff;
+  padding: 40px 0;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.contact-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  background: white;
+  border: 1px solid #afadad ;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact-icon {
+  width: 32.69px;
+  height: 25px;
+  object-fit: contain;
+}
+.contact-href{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16.875px;
+line-height: 25px;
+text-align: center;
+text-decoration-line: underline;
+color: #A3BB33;
+}
+
+.contact-text {
+  font-size: 16px;
+  text-align: center;
+  color: #000000;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17.1875px;
+line-height: 25px;
+}
+
+
+.social-section {
+  text-align: center;
+}
+
+.social-heading {
+  margin-bottom: 16px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 17.5px;
+line-height: 24px;
+text-align: center;
+color: #000000;
+
+
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+
+.social-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  overflow: hidden;
+background: #A3BB33;
+border-radius: 25px;
+width: 88px;
+height: 50px;
+}
+.fb{
+  width: 10px;
+  height: 19px;
+}
+.ig{
+  width: 18px;
+  height: 17px;
+}
+.yt{
+  width: 18px;
+  height: 13px;
+}
+.site-footer {
+  background-color: #F8F1E1;
+  width: 100%;
+  padding: 40px 0;
+  color: white;
+}
+
+.footer-sections {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  gap: 40px;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-section li {
+  margin-bottom: 5px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.9906px;
+  line-height: 25px;
+  color: #444444;
+  gap: 16px;
+}
+
+.footer-section img {
+  max-width: 100%;
+}
+
+.footer-section h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.875px;
+  line-height: 25px;
+  color: #000000;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 0.5px solid rgb(255, 255, 255);
+  margin: 40px 0;
+}
+
+.footer-legal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.footer-trust {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  gap: 100px;
+}
+
+.footer-payments {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 14px;
+  gap: 25px;
+}
+
+.footer-social {
+  margin-left: 90%;
+  align-self: flex-end;
+  display: flex;
+  gap: 16px;
+}
+
+.social-fb {
+  width: 10px;
+  height: 19px;
+}
+
+.social-ig {
+  width: 18px;
+  height: 17px;
+}
+
+.social-yt {
+  width: 20px;
+  height: 17px;
+}
+
+.footer-icon {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  top: 4px;
+}
+
+.footer-logo {
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14.875px;
+  line-height: 24px;
+  color: #000000;
+}
+
+.footer-link-highlight {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: bold;
+  color: #28A970;
+  line-height: 25px;
+  font-size: 12.95px;
+  text-decoration: underline;
+}
+
+.footer-section a {
+  text-decoration: none;
+}
+
+.footer-legal p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.1813px;
+  line-height: 24px;
+  color: #444444;
 }

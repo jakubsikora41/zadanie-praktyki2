@@ -96,6 +96,7 @@
   font-size: 40px;  
   margin-top: 0;    
   line-height: 1;
+  overflow: hidden;
 }
 
 .expert-title {
@@ -141,6 +142,7 @@ z-index: 5;
   color: #000;
   max-width: 150px;
   z-index: 3;
+  overflow: hidden;
 }
   .two-column-section {
         height: auto;
@@ -390,4 +392,143 @@ z-index: 5;
     width: 120px;
     height: auto;
   }
+   .contact-grid {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .contact-card {
+    padding: 18px;
+  }
+
+  .contact-icon {
+    width: 28px;
+    height: auto;
+  }
+
+  .contact-text {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .contact-href {
+    font-size: 15px;
+    line-height: 22px;
+  }
+
+  .social-heading {
+    font-size: 16px;
+  }
+
+  .social-icons {
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+
+  .social-button {
+    width: 75px;
+    height: 45px;
+  }
+
+  .fb {
+    width: 9px;
+    height: auto;
+  }
+
+  .ig, .yt {
+    width: 16px;
+    height: auto;
+  }
+
+
+.site-footer {
+  padding: 30px 0;
+}
+
+.footer-sections {
+  grid-template-columns: 1fr;
+  gap: 24px;
+  text-align: left;
+}
+
+.footer-section h3 {
+  font-size: 15px;
+}
+
+.footer-section li {
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.footer-logo {
+  width: 120px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+
+.footer-social {
+  margin-left: 0;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+  gap: 16px;
+  order: 5;
+}
+
+.social-fb,
+.social-ig,
+.social-yt {
+  width: 18px;
+  height: auto;
+}
+
+
+.footer-trust {
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.footer-trust h3 {
+  font-size: 15px;
+}
+
+
+.footer-payments {
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.footer-payments img {
+  width: 90px;
+  height: auto;
+}
+
+
+.footer-payments .footer-social {
+  width: 100%;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.footer-legal {
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+}
+
+.footer-legal p,
+.footer-legal a {
+  font-size: 13px;
+}
+
+
+.footer-social img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+}
 }
