@@ -786,3 +786,571 @@ box-sizing: border-box;
 width: 60px;
 border-top: 3px solid #00796B;
 }
+.adv-section {
+  width: 100%;
+  padding: 50px 0;
+  background: #ffffff;
+}
+
+.adv-container {
+  width: 100%;
+  max-width: 1410px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.adv-title {
+margin-bottom: 40px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 30px;
+color: #000000;
+
+
+}
+
+.adv-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.adv-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background: #f4f5f7;
+  width: 337.5px;
+  height: 49px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.adv-item img {
+ margin-left: 30px;
+  width: 22px;
+  height: 22px;
+}
+.adv-item span{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #111111;
+
+
+}
+.section-wrapper {
+  width: 100%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+  height: 700px;
+}
+
+
+.container-1410 {
+  width: 1410px;
+  display: grid;
+  gap: 20px;
+
+  
+  grid-template-columns: 143fr 139fr; 
+
+
+  grid-template-rows: max-content auto; 
+  
+  grid-template-areas:
+    "deals headphones"
+    "deals bottomboxes";
+}
+
+.deals-box { grid-area: deals; }
+.headphones-box { grid-area: headphones; }
+.bottom-pair { grid-area: bottomboxes; }
+
+
+.deals-box {
+  
+  height: 600px; 
+  border: 2px solid #000000;
+  border-radius: 12px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.deals-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.deals-products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.deal-item {
+  width: 48%;
+}
+
+
+
+.deal-image-wrapper {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.deal-sale {
+  position: absolute;
+  top: -5px;
+  left: -5px;
+  background: #fff;
+  border: 1px solid #1b1818;
+  padding: 3px 6px;
+  border-radius: 4px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 11.9px;
+line-height: 17px;
+text-transform: uppercase;
+color: #111111;
+
+}
+
+.deal-img {
+  width: 290.5px;
+  height: 290.5px;
+  border-radius: 8px;
+}
+
+.deal-name {
+  margin-top: 12px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 21px;
+color: #000000;
+}
+.deal-prices{
+  display: flex;
+  gap: 16px;
+}
+
+.deal-old-price {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+text-decoration-line: line-through;
+color: #999999;
+}
+
+.deal-new-price {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+color: #000000;
+  margin-bottom: 10px;
+}
+.deal-stats{
+  display: flex;
+  justify-content: space-between ;
+}
+.deal-stats p {
+  margin: 2px 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 23px;
+color: #888888;
+}
+.deal-green{
+  color: #2E7D32;
+}
+.deal-black{
+  color: #555555;
+}
+
+.deal-timer {
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.deal-timer div {
+  width: 23%;
+  background: #f5f5f5;
+  padding: 8px 0;
+  border-radius: 6px;
+  text-align: center;
+}
+
+.deal-timer p {
+  margin: 0;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 18px;
+color: #000000;
+}
+
+.deal-timer span {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 17px;
+color: #878787;
+}
+
+
+.headphones-box {
+
+  height: 270px;
+  background-image: url('../img/Banner-1.jpeg.jpg');
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  color: #fff;
+}
+
+.headphones-title {
+margin-left: 60px;
+margin-top: 50px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+text-transform: capitalize;
+color: #000000;
+}
+
+.headphones-sub {
+  margin-top: 8px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 26px;
+color: #000000;
+  margin-left: 60px;
+}
+
+.headphones-btn {
+  margin-left: 60px;
+  margin-top: 10px;
+  width: 144.47px;
+  height: 46px;
+  background: #00796B;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+text-transform: capitalize;
+color: #FFFFFF;
+text-align: center;
+}
+
+
+.bottom-pair {
+  display: flex;
+  gap: 20px; 
+  justify-content: flex-start; 
+}
+
+.charger-box,
+.protection-box {
+  flex-grow: 1; 
+  height: 268px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  padding: 20px;
+  color: #fff;
+}
+
+.charger-box { background-image: url('../img/Banner-21.jpeg.jpg'); }
+.protection-box { background-image: url('../img/Banner-41.jpeg.png' )}
+
+.charger-title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 31px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-top: 50%;
+}
+
+.charger-sub,
+.protection-sub {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+}
+.protection-title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 31px;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+margin-top: 46.85%;
+}
+.recently-wrapper {
+  width: 100%;
+  background: #f2f2f2;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  padding: 40px 0;
+  height: 850px;
+}
+
+.recently-wrapper h2 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px; 
+  margin-top: 80px; 
+}
+
+.recently-container-1410 {
+  width: 1410px;
+  display: grid;
+  grid-template-columns: 423px 1fr;
+  grid-template-rows: 658.53px;
+  margin-top: 0px; 
+}
+
+.recently-promo-box {
+  width: 423px;
+  height: 659.53px;
+  background: #fff;
+ 
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+    justify-content: flex-start;
+    border-width: 1px 1px 1px 0px;
+border-style: solid;
+border-color: #E1E1E1;
+ background-image: url('../img/virtualvr.png');
+  background-repeat: no-repeat;
+}
+
+.recently-promo-title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 36px;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+color: #FFFFFF;
+}
+
+.recently-promo-sub {
+  margin-top: 6px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+.recently-promo-btn {
+width: 118.2px;
+height: 42px;
+background: #00796B;
+border-radius: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+margin-left:125px;
+text-transform: capitalize;
+color: #FFFFFF;
+border: none;
+}
+
+.recently-promo-bottom {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+  gap: 16px 0px;
+}
+.recently-promo-top{
+ 
+  width: 100%;
+  height: 366.73px;
+
+}
+
+.recently-promo-bottom a {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+  text-decoration: none;
+  max-width: 165px;
+  gap: 8px;
+}
+.recently-prices{
+  display: flex;
+  gap: 8px;
+}
+
+.recently-products-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 246.5px);
+  grid-template-rows: repeat(2, 329.26px); 
+}
+
+.recently-product-box {
+  width: 246.5px;
+  height: 329.77px;
+  background: #fff;
+  padding: 12px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-width: 1px 1px 1px 0px;
+border-style: solid;
+border-color: #E1E1E1;
+
+}
+
+.recently-product-box img {
+  width: 215.5px;
+  height: 215.5px;
+  border-radius: 8px;
+}
+
+.recently-product-name {
+  margin-top: 10px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 18px;
+color: #000000;
+}
+
+.recently-product-old-price {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+text-decoration-line: line-through;
+color: #555555;
+  margin-top: 2px;
+}
+
+.recently-product-price {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 21px;
+color: #555555;
+  margin-top: 2px;
+}
+.recently-product-price2{
+font-family: 'Inter';
+font-style: normal;
+font-weight: bold;
+font-size: 15px;
+line-height: 21px;
+color: #000000;
+margin-top: 0px;
+
+}
+.popular-wrapper {
+  width: 100%;
+  background: #fff;
+  margin-top: 60px;
+  height: 300px;
+}
+
+.popular-container {
+  width: 1410px;
+  margin: 0 auto;
+}
+
+.popular-title {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 30px;
+color: #000000; 
+text-align: center;
+margin-bottom: 30px;
+}
+
+.popular-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 266px);
+  gap: 20px;
+  justify-content: center;
+}
+
+.popular-brand {
+  width: 266px;
+  height: 74px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.popular-brand img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
