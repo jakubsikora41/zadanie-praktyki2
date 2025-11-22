@@ -537,4 +537,136 @@
   .popular-brand img {
     max-height: 45px;
   }
+ 
+.xstore-wrapper,
+.Articles-wrapper,
+.email-wrapper {
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+
+.xstore-container-1410 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+
+.xstore-products-grid {
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+  width: 100%;
+  padding: 0 12px;  
+}
+
+.xstore-product-box {
+  width: 100%;
+  height: auto;
+}
+
+.xstore-product-box img {
+  width: 100%;
+  height: auto;
+}
+
+
+.xstore-promo-box {
+  width: calc(100% - 24px); 
+  margin: 0 auto;
+  height: 280px;
+  padding: 20px;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.Articles-wrapper {
+  height: auto;
+  padding-bottom: 40px;
+  padding-left: 12px;  
+  padding-right: 12px; 
+}
+
+.Articles-grid {
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.Articles-image-box {
+  aspect-ratio: 16/9;
+}
+
+.email-layout {
+  flex-direction: column;
+  gap: 20px;
+}
+
+.email-card {
+  min-height: 220px;
+  width: calc(100% - 24px); 
+  margin: 0 auto;
+  border-radius: 14px;
+}
+
+.email-card-small,
+.email-card-large {
+  flex: unset;
+  width: 100%;
+}
+
+.email-content {
+  max-width: 100%;
+}
+
+.email-input-group {
+  max-width: 100%;
+}
+
+.email-input-icon {
+  right: -20px;
+}
+
+.xstore-container-1410,
+.Articles-container,
+.email-container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.xstore-products-grid,
+.Articles-grid,
+.email-layout {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+.xstore-product-box,
+.xstore-promo-box,
+.Articles-card,
+.email-card {
+    width: 100% !important;
+    margin: 0 !important;
+}
+
+.xstore-product-box img,
+.Articles-img {
+    width: 100% !important;
+    height: auto !important;
+}
+
+.xstore-wrapper,
+.Articles-wrapper,
+.email-wrapper {
+    margin-top: 40px !important;
+    padding-top: 20px !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
 }
