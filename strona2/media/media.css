@@ -668,5 +668,94 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
 }
+ .links-footer-wrapper {
+    padding: 40px 0 20px 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .links-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 14px !important;
+  box-sizing: border-box; 
+}
+
+  .links-top-section {
+    display: grid;
+    grid-template-columns: 1fr; 
+    gap: 32px;
+    margin-bottom: 40px;
+  }
+
+  .links-column-wide {
+    text-align: center;
+    align-items: center;
+  }
+
+  .links-logo-link {
+    margin: 0 auto 20px auto;
+  }
+
+  .links-contact-group {
+    text-align: center;
+  }
+
+  .links-phone-number {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .links-address {
+    font-size: 15px;
+    line-height: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .links-socials {
+    justify-content: center;
+    gap: 16px;
+  }
+
+ 
+  .links-heading {
+    font-size: 18px;
+    margin-bottom: 16px;
+    text-align: center;
+  }
+
+  .links-list {
+    text-align: center;
+  }
+
+  .links-item {
+    font-size: 16px;
+  }
+
+
+  .links-separator {
+    margin: 40px 0 20px 0;
+  }
+
+  .links-bottom-section {
+    flex-direction: column;
+    text-align: center;
+    gap: 18px;
+  }
+
+  .links-payment-wrapper {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .links-payment-icons {
+    justify-content: center;
+  }
+
+  .links-pay-icon {
+    width: 55px;
+    height: 32px;
+  }
 
 }
